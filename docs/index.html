@@ -46,6 +46,17 @@
             font-weight: 500;
         }
 
+        .byline a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px dotted var(--tica-gray);
+        }
+
+        .byline a:hover {
+            color: var(--tica-orange) !important;
+            border-bottom-color: var(--tica-orange);
+        }
+
         .filters-section {
             background-color: white;
             padding: 20px;
@@ -177,7 +188,7 @@
 <body>
     <div class="container search-container">
         <h2 class="mb-4">HS Code Zoeker</h2>
-        <div class="byline">Made by Niels Visser</div>
+        <div class="byline">Made by <a href="https://github.com/NvisserN" target="_blank">Niels Visser</a></div>
         
         <!-- Export knop -->
         <div class="text-end export-btn">
